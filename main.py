@@ -10,7 +10,7 @@ from aiogram.filters import CommandStart
 import yt_dlp
 
 # 1. Створюємо веб-сервер для "Health Check" на Render
-app = Flask(name)
+app = Flask(__name__)
 
 
 @app.route('/')
